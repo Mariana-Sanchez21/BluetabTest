@@ -1,0 +1,64 @@
+label{
+    display: flex;
+width: 469px;
+height: 56px;
+padding: 8px;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+    color: var(--Naranja-Bluetab, #E05206);
+    font-family: Titillium Web;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    letter-spacing: -0.264px;
+}
+
+input {
+display: flex;
+width: 712px;
+height: 38px;
+padding: 8px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid var(--Gris-claro-Bluetab, #DAD7CB);
+background: var(--Blanco, #FFF);
+}
+
+textarea{
+display: flex;
+width: 712px;
+height: 38px;
+padding: 8px;
+align-items: flex-start;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 8px;
+border: 1px solid var(--Gris-claro-Bluetab, #DAD7CB);
+background: var(--Blanco, #FFF);
+}
+
+.saveButton{
+
+display: flex;
+width: 89px;
+height: 38px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+gap: 10px;
+flex-shrink: 0;
+border-radius: 24px;
+background: var(--Azul-claro-Bluetab, #6F9AD3);
+color: white;
+margin-top: 40px;
+margin-left: 600px;
+}
+
+.Form-container{
+
+    margin-top: 70px;
+}

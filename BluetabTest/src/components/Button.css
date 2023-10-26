@@ -1,0 +1,35 @@
+
+    .Button-container {
+        position:absolute;
+        top: 20px;
+        right: 700px;
+        display: flex;
+       justify-content: flex-start;
+        align-items: center;
+        height: 50px;
+        border-radius: 24px;
+        border: 3px solid #6F9AD3; 
+        padding: 10 20px; /*espacio*/
+        margin-bottom: 40px;
+      }
+      
+      .Button {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 20px; 
+      }
+      .Button-text {
+        color: #6F9AD3;
+        font-family: Titillium Web;
+        font-size: 24px;
+        font-size: 15px;
+        margin: 0;
+      }
+      .Icon {
+        width: 15px;
+        height: 15px;
+        /*margin-left: 20px;*/
+      }
+      
+
