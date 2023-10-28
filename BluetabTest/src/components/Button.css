@@ -1,4 +1,4 @@
-
+/* 
     .Button-container {
         position:absolute;
         top: 20px;
@@ -10,8 +10,8 @@
         border-radius: 24px;
         border: 3px solid #6F9AD3; 
         padding: 10 20px; /*espacio*/
-        margin-bottom: 40px;
-      }
+        /* margin-bottom: 40px; */
+      /* }
       
       .Button {
         display: flex;
@@ -30,6 +30,6 @@
         width: 15px;
         height: 15px;
         /*margin-left: 20px;*/
-      }
-      
+      /* }*/
+       
 

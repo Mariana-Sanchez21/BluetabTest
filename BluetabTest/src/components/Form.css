@@ -1,64 +1,206 @@
-label{
+.container-form {
+    margin-bottom: 2rem;
+}
+
+section {
+    margin: 2rem 0 0 0;
+
+}
+
+.main-input-group {
+    margin: 0.8rem 0 0.8rem 0;
+    /* Para establecer margin top y bottom luego de cada input-group */
+    display: grid;
+    grid-row-gap: 0.3rem;
+    /* Espacio vertical entre elementos en .input-group */
+
+}
+
+
+.group-large-input {
     display: flex;
-width: 469px;
-height: 56px;
-padding: 8px;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
+    width: 44.5rem;
+    height: 2rem;
+    padding: 0.5rem;
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    
+}
+
+input:focus, textarea:focus {
+    outline: none;
+  }
+
+.group-title {
     color: var(--Naranja-Bluetab, #E05206);
-    font-family: Titillium Web;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-style: normal;
     font-weight: 600;
-    line-height: 150%; 
-    letter-spacing: -0.264px;
+    line-height: 150%;
+    /* 2.25rem */
+    letter-spacing: -0.0165rem;
+    text-transform: uppercase;
+    margin-right: 90rem;
+    white-space: nowrap;
+
+    
 }
 
-input {
-display: flex;
-width: 712px;
-height: 38px;
-padding: 8px;
-align-items: flex-start;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 8px;
-border: 1px solid var(--Gris-claro-Bluetab, #DAD7CB);
-background: var(--Blanco, #FFF);
+/* Se hace referencia a los estilos dentro del div contener del form */
+#container-form input,
+textarea {
+    border-radius: 0.5rem;
+    border: 1px solid var(--Gris-claro-Bluetab, #DAD7CB);
+    background: var(--Blanco, #FFF);
+    color: var(--Gris-Bluetab, #675C53);
+    
+
+    /* Cuerpo texto */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.3125rem */
+    letter-spacing: -0.00963rem;
+    padding: 0.5rem; /*  sangría para el texto */
+
 }
 
-textarea{
-display: flex;
-width: 712px;
-height: 38px;
-padding: 8px;
-align-items: flex-start;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 8px;
-border: 1px solid var(--Gris-claro-Bluetab, #DAD7CB);
-background: var(--Blanco, #FFF);
+select{
+    border-radius: 0.5rem;
+    border: 1px solid var(--Gris-claro-Bluetab, #DAD7CB);
+    background: var(--Blanco, #FFF);
+    color: var(--Gris-Bluetab, #675C53);
+    
+
+    /* Cuerpo texto */
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    /* 1.3125rem */
+    letter-spacing: -0.00963rem;
+    padding: 0.5rem;
+   /*  sangría para el texto */
+
+}
+
+
+label,
+input,
+p {
+
+    padding-left:0.2rem; ;
+    margin-right: 70rem;
+    white-space: nowrap;
+}
+
+#summary {
+    display: flex;
+    width: 44.5rem;
+    height: 7.125rem;
+    
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+}
+#knowledge{
+    display: flex;
+    width: 44.5rem;
+    height: 7.125rem;
+    
+    align-items: flex-start;
+    gap: 0.625rem;
+    flex-shrink: 0;
+
+}
+.startDate{
+    margin-right: 73rem;
+}
+
+
+.container-date {
+    display: flex;
+    margin: 0.8rem 0 0.8rem 0;
+}
+select .date{
+height: 3.2rem;
+}
+
+
+.date {
+    width: 21.369rem;
+    height: 2rem;
+    padding: 0.5rem;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+/* Establece un margen derecho en el primer input*/
+.date:first-child {
+    margin-right: 0.41rem;
+    height: 3.1rem;
+    padding-top: 0.8rem;
+    /* Ajusta el valor según tu preferencia de espacio */
 }
 
 .saveButton{
 
-display: flex;
-width: 89px;
-height: 38px;
-padding: 10px;
-justify-content: center;
-align-items: center;
-gap: 10px;
-flex-shrink: 0;
-border-radius: 24px;
-background: var(--Azul-claro-Bluetab, #6F9AD3);
-color: white;
-margin-top: 40px;
-margin-left: 600px;
+    display: flex;
+    width: 8rem;
+    height: 2.375rem;
+    padding: 0.625rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 1.5rem;
+    background: var(--Azul-claro-Bluetab, #6F9AD3);
+    margin-left: 35rem;
+    margin-top: 3rem;
+    
+    color: var(--Blanco, #FFF);
+    text-align: center;
+     font-family: Titillium Web; 
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+    /* 1.5rem */
+    letter-spacing: -0.011rem;
+
 }
 
 .Form-container{
 
     margin-top: 70px;
+    margin-left: 20rem;
+}
+.Logo{
+width: 6rem;
+height: 4rem;
+flex-shrink: 0;
+margin-left: 6rem;
+margin-top: 1rem;
+
+.squares{
+width: 15rem;
+height: 9rem;
+flex-shrink: 0;
+margin-right: 1rem;
+}
+
+}
+.logo-container{
+    display: flex;
+    justify-content:left;
+    height: 5rem;
+}
+
+.squares-container{
+    display: flex;
+    justify-content:left;
+  
 }
