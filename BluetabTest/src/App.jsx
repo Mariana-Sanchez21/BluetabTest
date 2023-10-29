@@ -1,7 +1,12 @@
-import  { useState } from 'react';
+import { useState } from 'react';
 import './App.css';
 import { Form } from './components/Form';
-
+import { Home } from './components/Home';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 function App() {
   const [formData, setFormData] = useState({
@@ -14,21 +19,21 @@ function App() {
   });
 
   const handleFileUpload = (pdfData) => {
-    
     setFormData((prevData) => ({
       ...prevData,
-      name: pdfData.text, 
-      summary: pdfData.text, 
+      name: pdfData.text,
+      summary: pdfData.text,
     }));
     console.log('Uploaded PDF data:', pdfData);
   };
 
   return (
-    <>
-     
-      <Form handleFileUpload={handleFileUpload} formData={formData} />
-   
-    </>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} /> {/* Use element instead of Component */}
+        <Route path="/Form" element={<Form />} />
+      </Routes>
+    </Router>
   );
 }
 

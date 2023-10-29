@@ -176,7 +176,7 @@ height: 3.2rem;
 .Form-container{
 
     margin-top: 70px;
-    margin-left: 20rem;
+    margin-left: 25rem;
 }
 .Logo{
 width: 6rem;
@@ -203,4 +203,102 @@ margin-right: 1rem;
     display: flex;
     justify-content:left;
   
+}
+
+.squares2-container{
+    display: flex;
+    justify-content:end;
+   
+}
+
+.hamburguerButton{
+    margin-left: 92.5rem;
+    margin-top: -10rem;
+    position: fixed;
+    z-index: 1;
+    background: none;
+    border: none;
+    font-size: 24px; 
+    outline: none;
+}
+.menu{
+    margin-left: 80rem;
+    background-color: #EDEBE7;
+    position: fixed;
+    height: 70rem;
+    margin-top: -15rem;
+    z-index: 0;
+}
+
+ul{
+    margin-top: 3rem;
+    list-style-type: none;
+    color: #000;
+
+font-family: Titillium Web;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 150%; /* 18px */
+letter-spacing: -0.132px;
+}
+.search{
+    margin-top: 5rem;
+    margin-left: 2rem;
+    display: flex;
+    width: 176px;
+    height: 16px;
+    padding: 8px 6px;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #AAAAA8;
+}
+
+.extra{
+    font-family: Titillium Web;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; /* 18px */
+letter-spacing: -0.132px;
+}
+.arrow1{
+    margin-left: 8.8rem;
+    margin-bottom: 0.1rem;
+}
+.arrow2{
+    margin-left: 8.8rem;
+    margin-bottom: 0.1rem;
+}  
+.arrow3{
+    margin-left: 1rem;
+    margin-bottom: 0.1rem;
+}
+.arrow4{
+    margin-left: 4rem;
+    margin-bottom: 0.1rem;
+}
+.arrow5{
+    margin-left: 4.5rem;
+    margin-bottom: 0.1rem;
+}
+.arrow6{
+    margin-left: 8.8rem;
+    margin-bottom: 0.1rem;
+}
+
+.buttonATS{
+   color: #6F9AD3;
+    margin-left: 60rem;
+    border-radius: 24px;
+border: 1px solid #6F9AD3;
+height: 40px;
+padding: 5px 24px;
+background-color: white;
+font-family: Titillium Web;
+font-size: 20px;
+
+
 }
