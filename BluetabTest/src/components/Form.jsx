@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/jsx-no-comment-textnodes */
 import { useState } from 'react';
 import Airtable from 'airtable';
 import './Form.css';
@@ -245,6 +247,7 @@ function Form() {
           <li>Blog</li><br/>
           <li>Bluetalks</li><br/>
           <li>Sitios Corporativos</li><br/>
+          // eslint-disable-next-line react/no-unescaped-entities
           <li>FAQ's</li><br/>
           <li>Contactos</li><br/>
           </div>
