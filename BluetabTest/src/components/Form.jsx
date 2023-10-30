@@ -247,7 +247,6 @@ function Form() {
           <li>Blog</li><br/>
           <li>Bluetalks</li><br/>
           <li>Sitios Corporativos</li><br/>
-          // eslint-disable-next-line react/no-unescaped-entities
           <li>FAQ's</li><br/>
           <li>Contactos</li><br/>
           </div>
